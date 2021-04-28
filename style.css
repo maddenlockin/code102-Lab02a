@@ -1,10 +1,15 @@
-body {
+body, main {
     
     display: flex;
     justify-content: center; 
     flex-direction: column;     
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black
 }
 
 header {
@@ -13,8 +18,9 @@ header {
     align-items: center;
     flex-direction: column;
     color:white;
-    background-color: red;
+    background-color: rgb(250, 212, 212);
     border-radius: ;
+    width: 100%;
 }
 h1 {
     font-weight: bold;
@@ -23,8 +29,24 @@ h1 {
 h2 {
 
 }
+section {
+    display: grid;
+    /*justify-content: center;*/
+    align-items: center;
+    grid-template-rows: .7fr 1fr 1fr;
+}
+#word-box {
+    height: 50%;
+}
 content {
     background-color: white;
     font-family:cursive;
     align-items: center;
+    height: 30%;
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(250, 212, 212);
 }
