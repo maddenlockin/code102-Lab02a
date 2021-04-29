@@ -1,15 +1,15 @@
 
-const myInput = document.getElementById('my-input');
+const nameInput = document.getElementById('name-input');
 
-const myButton = document.getElementById('my-button');
+const nameButton = document.getElementById('name-button');
 
-const wordBox = document.getElementById('word-box')
+const nameResult = document.getElementById('name-result')
 
-myButton.addEventListener('click', () => {
-    const userInput = theInput.value;
-    wordBox.textContent = userInput.value;
+nameButton.addEventListener('click', () => {
+    const userWords = nameInput.value;
+    nameResult.textContent = userWords;
+
 })
-
 
 
 

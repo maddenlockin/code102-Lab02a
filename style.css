@@ -50,3 +50,9 @@ footer {
     height: 20%;
     background-color: rgb(250, 212, 212);
 }
+
+#name-result {
+    justify-content: center;
+    display: grid;
+    font-size: x-large;
+}
